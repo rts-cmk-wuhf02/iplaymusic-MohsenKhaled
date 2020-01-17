@@ -1,0 +1,24 @@
+header {
+  width: 80%;
+  margin: 0 auto; }
+  header h1 {
+    background: -webkit-radial-gradient(#EE0979, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif; }
+
+main {
+  width: 80%;
+  margin: 0 auto; }
+  main button {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    background-color: red;
+    border: none; }

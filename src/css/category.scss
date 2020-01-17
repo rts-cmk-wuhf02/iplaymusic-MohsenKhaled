@@ -1,0 +1,28 @@
+@import "variables";
+header{
+    width: 80%;
+    margin: 0 auto;
+    h1{
+        background: -webkit-radial-gradient( #EE0979, #ff6a00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: $fontStyle;
+    }
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    button{
+        font-family: $fontStyle;
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-radius: 10px;
+        background-color: red;
+        border: none;
+    }
+} 
