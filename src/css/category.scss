@@ -10,7 +10,7 @@ header{
     }
 }
 main{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     button{
         font-family: $fontStyle;
@@ -20,9 +20,9 @@ main{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
         border-radius: 10px;
         background-color: red;
         border: none;
+        width: 80%;
     }
 } 

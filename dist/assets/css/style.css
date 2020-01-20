@@ -46,7 +46,7 @@ header {
     font-family: "Poppins", sans-serif; }
 
 main {
-  width: 80%;
+  width: 100%;
   margin: 0 auto; }
   main button {
     font-family: "Poppins", sans-serif;
@@ -56,7 +56,23 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     border-radius: 10px;
     background-color: red;
-    border: none; }
+    border: none;
+    width: 80%; }
+
+main section {
+  background: no-repeat center url("../images/pexels-photo-1816943.png");
+  background-size: cover;
+  width: 100%;
+  padding: 20px 20px 20px 60px;
+  color: white;
+  font-size: x-large;
+  height: 110vw;
+  position: relative; }
+  main section p {
+    position: absolute;
+    bottom: 50px; }
+  main section h1 {
+    bottom: 100px;
+    position: absolute; }
