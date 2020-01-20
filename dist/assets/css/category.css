@@ -11,7 +11,6 @@ main {
   width: 100%;
   margin: 0 auto; }
   main ul {
-    margin: 0 auto;
     list-style: none;
     display: flex;
     justify-content: space-between;
