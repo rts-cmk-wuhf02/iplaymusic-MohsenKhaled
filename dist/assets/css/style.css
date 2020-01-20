@@ -48,6 +48,15 @@ header {
 main {
   width: 100%;
   margin: 0 auto; }
+  main ul {
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+    padding: 20px 0 0 0; }
   main button {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -59,7 +68,8 @@ main {
     border-radius: 10px;
     background-color: red;
     border: none;
-    width: 80%; }
+    width: 80%;
+    margin: 0 auto; }
 
 main section {
   background: no-repeat center url("../images/pexels-photo-1816943.png");
