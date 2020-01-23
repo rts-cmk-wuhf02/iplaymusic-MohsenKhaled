@@ -8,14 +8,14 @@ header {
     font-family: "Poppins", sans-serif; }
 
 main {
-  width: 100%;
+  width: 80%;
   margin: 0 auto; }
   main ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     color: white;
     padding: 20px 0 0 0; }
   main button {
@@ -29,5 +29,5 @@ main {
     border-radius: 10px;
     background-color: red;
     border: none;
-    width: 80%;
+    width: 100%;
     margin: 0 auto; }

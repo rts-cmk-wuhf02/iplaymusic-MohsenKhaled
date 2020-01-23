@@ -1,4 +1,4 @@
-main section {
+main #background_pic {
   background: no-repeat center url("../images/pexels-photo-1816943.png");
   background-size: cover;
   width: 100%;
@@ -7,9 +7,9 @@ main section {
   font-size: x-large;
   height: 110vw;
   position: relative; }
-  main section p {
+  main #background_pic p {
     position: absolute;
     bottom: 50px; }
-  main section h1 {
+  main #background_pic h1 {
     bottom: 100px;
     position: absolute; }
