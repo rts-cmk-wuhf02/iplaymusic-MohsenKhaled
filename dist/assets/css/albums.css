@@ -1,0 +1,6 @@
+#albums_main {
+  width: 80%;
+  color: white; }
+  #albums_main section {
+    justify-content: space-between;
+    align-items: center; }
