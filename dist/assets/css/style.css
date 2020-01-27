@@ -89,6 +89,14 @@ main #background_pic {
 #albums_main {
   width: 80%;
   color: white; }
-  #albums_main section {
+  #albums_main .head_line {
     justify-content: space-between;
     align-items: center; }
+  #albums_main #img_wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center; }
+    #albums_main #img_wrapper img {
+      width: 130px;
+      height: 130px; }
