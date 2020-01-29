@@ -43,6 +43,8 @@ function javascript(done) {
 	gulp.src("./src/javascript/**/*.js")
 		.pipe(babel({
 			presets: ["@babel/env"]
+		}).on("error",function (err){
+			console.log(err)
 		}))
 		.pipe(gulp.dest("./dist/assets/javascript"))
 		.pipe(connect.reload());
