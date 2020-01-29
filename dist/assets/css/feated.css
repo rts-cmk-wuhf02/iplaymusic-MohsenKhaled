@@ -1,15 +1,14 @@
-main #background_pic {
-  background: no-repeat center url("../images/pexels-photo-1816943.png");
-  background-size: cover;
-  width: 100%;
-  padding: 20px 20px 20px 60px;
+main .background_pic {
   color: white;
   font-size: x-large;
   height: 110vw;
   position: relative; }
-  main #background_pic p {
-    position: absolute;
-    bottom: 50px; }
-  main #background_pic h1 {
-    bottom: 100px;
-    position: absolute; }
+  main .background_pic div {
+    width: 80%;
+    margin: 0 auto; }
+    main .background_pic div p {
+      position: absolute;
+      bottom: 50px; }
+    main .background_pic div h1 {
+      bottom: 100px;
+      position: absolute; }
